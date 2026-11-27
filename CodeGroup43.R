@@ -27,5 +27,8 @@ tbl <- table(
 )
 addmargins(tbl) # the table shows a total of 20 female and 71 male had the intent of being an entrepreneurial while 37 female and 91 male had no entrepreneurial intent.
 
+# Here, we are normalising the data to percentages/proportions to clearly visualise the data.
+counts <- table(data$y, data$Gender)
+props  <- prop.table(counts, margin = 2) * 100
 #the Pearson's chi-squared test 
 chisq.test(tbl) #from the Pearson's chi-squared test it is observed that thep_value is 0.3196 this shows that our result is not statistically significant
