@@ -1,0 +1,31 @@
+Hello Team,
+# More Context
+The dataset comprises 16 features collected from university students in India. The target variable consists whether the student is likely to become an entrepreneur or not.
+Evaluation
+As this is a classification problem, we will use the classification metics for evauluting the model
+linkcode
+Features
+Inputs / Features
+EducationSector - Engineering background or not
+IndividualProject - If the student builds personal project
+Age - Age of student
+Gender - Sex of student
+City - If the student stays in a city
+Influenced - If the student is influenced by someone
+Perseverance - Rating of a student based upon perseverance
+DesireToTakeInitiative - Rating of a student based upon desire to take initiative - Competitiveness
+Competitive rating - SelfRelianceSelf reliance rating
+SelfReliance - Self reliance rating
+StrongNeedToAchieve - Strong need to achieve a goal rating
+SelfConfidence - Self confidence rating
+GoodPhysicalHealth - Good physical health rating
+MentalDisorder - If there is any mental disorder
+KeyTraits - Key traits of the student
+ReasonsForLack - Reason for lack of entrepreneurship culture
+Output / Label
+y - Whether the student seems to become a entrepreneur or not
+
+Research Question:
+Is there a difference in the proportions of enterpreneurial intent between Y (Students influenced output) and Male and Female students in India in 2019, within the age range of 17-25?
+Take note of the Q column
+Please also Read the paper aswell (https://ieeexplore.ieee.org/abstract/document/9058292)
