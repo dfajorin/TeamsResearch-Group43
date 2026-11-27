@@ -7,4 +7,3 @@ View(data)
 print(data[, c("Age", "Gender", "Influenced", "y")])
 #Interesting rows and columns iin our dataset, total of 5 columns and 219 rows
 view(data[, c("Age", "Gender", "Influenced", "y", "StrongNeedToAchieve")])
-git config --global user.name "PrincessAdaobi"
